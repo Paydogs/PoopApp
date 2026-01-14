@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "PoopApp",
+    "slug": "PoopApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo/PoopAppLogo.png",
+    "scheme": "poopapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.magnificat.PoopApp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/logo/PoopAppLogo_Android_Foreground.png",
+        "backgroundImage": "./assets/images/logo/PoopAppLogo_Android_Background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.magnificat.PoopApp"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/logo/PoopAppLogo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/LapsusPro-Bold.otf",
+            "./assets/fonts/MouseMemoirs-Regular.ttf",
+            "./assets/fonts/WeeBairn.otf"
+          ]
+        }
+      ]
+    ],
+    "experiments": {
+      "reactCompiler": true
+    }
+  }
+}
